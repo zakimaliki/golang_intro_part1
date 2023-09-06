@@ -3,13 +3,14 @@ package main
 // import "fmt"
 
 // func main() {
-// fmt.Print("Hello world")
-// fmt.Println("Hello world")
-// var firstName = "zero"
-// fmt.Printf("halo %s!\n", firstName)
-
-// single comment
+// sinle line commet
 /*
-	mulit line comment
+	multi line comment
 */
+// fmt.Println("Hello World!")
+// fmt.Print("Hello World!")
+// var name = "zero"
+// var num = 12
+// var des = 6.123456
+// fmt.Printf("hello \n %s %d %.3f", name, num, des)
 // }

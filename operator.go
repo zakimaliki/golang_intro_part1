@@ -38,6 +38,7 @@ package main
 // &&	harus bernilai benar semua
 // ||	minimal ada salah satu yang benar
 // !	negasi / nilai kebalikan
+
 // fmt.Println(true && true)
 // fmt.Println(true || false)
 // fmt.Println(!true)

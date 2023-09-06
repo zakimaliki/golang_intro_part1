@@ -1,40 +1,26 @@
 package main
 
+// import (
+// 	"fmt"
+// )
+
 // func main() {
-// var untuk varibel yang nilainya bisa dirubah
-// const untuk varibel yang nilainya tidak bisa berubah
-// Deklarasi Variabel var Beserta Tipe Data
+// dengan keyword (var atau const) beserta tipe data
+// var name string = "zero"
+// fmt.Println(name)
+// dengan keyword tanpa tipe
+// var num = 12
+// fmt.Println(reflect.TypeOf(num))
+// tanpa keyword tanpa tipe data
+// 	age := 28
+// 	fmt.Println(age)
 
-// var firstName string = "john"
-// var lastName string  = "wick"
-// fmt.Printf("halo %s %s!\n", firstName, lastName)
-
-// Deklarasi Variabel Menggunakan Keyword var tanpa tipe data
-
-// var lastName = "wick"
-// var firstName = "john"
-// fmt.Printf("halo john wick!\n")
-// fmt.Printf("halo %s %s!\n", firstName, lastName)
-// fmt.Println("halo", firstName, lastName+"!")
-
-// Deklarasi Variabel Tanpa Tipe Data tanpa var
-
-// firstName := "john"
-// lastName := "wick"
-// fmt.Printf("halo %s %s!\n", firstName, lastName)
-
-// Deklarasi Multi Variabel
-// var first, second, third string
-// first, second, third = "satu", "dua", "tiga"
+// multi value
 // var first, second, third = "satu", "dua", "tiga"
-// first, second, third := "satu", "dua", "tiga"
 // fmt.Println(first, second, third)
 
-// Variabel Underscore _
-// Go memiliki aturan unik yang jarang dimiliki bahasa lain,
-// yaitu tidak boleh ada satupun variabel yang menganggur.
-//  Artinya, semua variabel yang dideklarasikan harus digunakan.
-// _, _, third := "satu", "dua", "tiga"
-// fmt.Println(third)
-
+// golang tidak mengizinkan varibel yang tidak pakai
+//  untuk mengatasinya kita menggunahkan variabel scope
+// 	var first, second, _ = "satu", "dua", "tiga"
+// 	fmt.Println(first, second)
 // }

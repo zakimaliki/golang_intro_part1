@@ -1,92 +1,61 @@
 package main
 
+// import "fmt"
+
 // func main() {
-// eleksi Kondisi Menggunakan Keyword if, else if, & else
-// var point = 8
-
-// if point == 10 {
-// 	fmt.Println("lulus dengan nilai sempurna")
-// } else if point > 5 {
+// if, else if, else
+// num := 81
+// if num > 80 {
 // 	fmt.Println("lulus")
-// } else if point == 4 {
-// 	fmt.Println("hampir lulus")
+// } else if num == 80 {
+// 	fmt.Println("dipertimbangkan")
 // } else {
-// 	fmt.Printf("tidak lulus. nilai anda %d\n", point)
+// 	fmt.Println("tidak lulus")
 // }
-
-//  Variabel Temporary Pada if - else
-// var point = 8840.0
-
-// if percent := point / 100; percent >= 100 {
-// 	fmt.Printf("%.1f%s perfect!\n", percent, "%")
-// } else if percent >= 70 {
-// 	fmt.Printf("%.1f%s good\n", percent, "%")
-// } else {
-// 	fmt.Printf("%.1f%s not bad\n", percent, "%")
-// }
-
-// Seleksi Kondisi Menggunakan Keyword switch - case
-// var point = 6
-
-// switch point {
-// case 8:
-// 	fmt.Println("perfect")
-// case 7:
-// 	fmt.Println("awesome")
-// default:
-// 	fmt.Println("not bad")
-// }
-
-// Pemanfaatan case Untuk Banyak Kondisi
-// var point = 6
-
-// switch point {
-// case 8:
-// 	fmt.Println("perfect")
-// case 7, 6, 5, 4:
-// 	fmt.Println("awesome")
-// default:
-// 	fmt.Println("not bad")
-// }
-
-// Penggunaan Keyword fallthrough Dalam switch
-// var point = 6
-
-// switch {
-// case point == 8:
-// 	fmt.Println("perfect")
-// case (point < 8) && (point > 3):
-// 	fmt.Println("awesome")
-// 	fallthrough
-// case point < 5:
-// 	fmt.Println("you need to learn more")
-// default:
-// 	{
-// 		fmt.Println("not bad")
-// 		fmt.Println("you need to learn more")
-// 	}
-// }
-
-// Seleksi Kondisi Bersarang
-// var point = 10
-
-// if point > 7 {
-// 	switch point {
-// 	case 10:
-// 		fmt.Println("perfect!")
-// 	default:
-// 		fmt.Println("nice!")
-// 	}
-// } else {
-// 	if point == 5 {
-// 		fmt.Println("not bad")
-// 	} else if point == 3 {
-// 		fmt.Println("keep trying")
+// nested if
+// num := 100
+// if num > 80 {
+// 	if num == 100 {
+// 		fmt.Println("lulus dengan pujian")
 // 	} else {
-// 		fmt.Println("you can do it")
-// 		if point == 0 {
-// 			fmt.Println("try harder!")
-// 		}
+// 		fmt.Println("lulus")
 // 	}
+// } else if num == 80 {
+// 	fmt.Println("dipertimbangkan")
+// } else {
+// 	fmt.Println("tidak lulus")
+// }
+
+// temporary varibel
+// ipk := 3
+// score := ipk * 25;
+// if score := ipk * 25; score > 80 {
+// 	fmt.Println("lulus")
+// } else if score == 75 {
+// 	fmt.Println("dipertimbangkan")
+// } else {
+// 	fmt.Println("tidak lulus")
+// }
+
+// if menggunhkan switch case
+// num := 79
+// switch {
+// case num > 80:
+// 	fmt.Println("lulus")
+// case num == 80:
+// 	fmt.Println("dipertimbangkan")
+// default:
+// 	fmt.Println("tidak lulus")
+// }
+// switch case
+// day := "selasa"
+// switch day {
+// case "senin", "selasa", "rabu", "kamis", "jum'at":
+// 	fmt.Println("Hari kerja")
+// 	fallthrough // akan dilanjut ke case berikutnya
+// case "sabtu", "minggu":
+// 	fmt.Println("Hari libur")
+// default:
+// 	fmt.Println("hari tidak ditemukan")
 // }
 // }
